@@ -1,8 +1,4 @@
-<html>
-<head>
-<title>my first html page</title>
-</head>
-<body>
+<%@ include file = "common/header.jsp" %>
+<%@ include file = "common/navigation.jsp" %>
 my first html page
-</body>
-</html>
+<%@ include file = "common/footer.jsp" %>

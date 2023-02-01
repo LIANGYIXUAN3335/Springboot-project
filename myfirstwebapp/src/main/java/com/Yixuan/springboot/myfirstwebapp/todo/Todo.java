@@ -1,13 +1,17 @@
-package todo;
+package com.Yixuan.springboot.myfirstwebapp.todo;
 
 import java.time.LocalDate;
+
+import jakarta.validation.constraints.Size;
 //database
 //@Entity
 public class Todo {
 	private int id;
 	private String username;
+	@Size(min=10,message = "enter at least 10 characters")
 	private String description;
 	private LocalDate targetDate;
+	private boolean done;
 	public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
 		super();
 		this.id = id;
@@ -21,7 +25,6 @@ public class Todo {
 		return "Todo [id=" + id + ", username=" + username + ", description=" + description + ", targetDate="
 				+ targetDate + ", done=" + done + "]";
 	}
-	private boolean done;
 	public int getId() {
 		return id;
 	}
