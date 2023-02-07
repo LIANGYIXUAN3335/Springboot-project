@@ -1,0 +1,22 @@
+{
+  "name": "first-npm-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIANGYIXUAN3335/Springboot-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LIANGYIXUAN3335/Springboot-project/issues"
+  },
+  "homepage": "https://github.com/LIANGYIXUAN3335/Springboot-project#readme",
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}
